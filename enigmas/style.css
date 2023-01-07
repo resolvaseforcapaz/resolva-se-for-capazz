@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'help';
+    src: url('HelpMe.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'who';
+    src: url('who\ asks\ satan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'danger';
+    src: url('Another\ Danger\ -\ Demo.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'lies';
+    src: url('True\ Lies.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'scary';
+    src: url('Nightscary\ Free\ Trial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'anti';
+    src: url('Antipathic.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'unu';
+    src: url(Unutterable-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    font-family: 'unu', cursive;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: #141414;
+}
+
+
+header > p {
+    font-family: 'who';
+    padding: 10px;
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    background-color: #0D0D0D;
+}
+
+
+header{
+    background-color: #000000;
+}
+
+main {
+    width: 90vw;
+    background-color: #424242;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article > ul {
+    list-style-type: none;
+}
+
+
+article > h2 {
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'unu', cursive;
+}
+
+
+article > h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-indent: 20px;
+    font-family: 'unu', cursive;
+}
+
+ul {
+    text-align: center;
+    display: block;
+    font-size: 0.8em;
+}
+
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+h1 > a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+h1 > a:hover {
+    color: #4b0034;
+}
+
+h1 > a:visited {
+    color: #4b0034;
+}

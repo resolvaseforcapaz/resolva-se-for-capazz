@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'help';
+    src: url('HelpMe.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'who';
+    src: url('who\ asks\ satan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'danger';
+    src: url('Another\ Danger\ -\ Demo.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'lies';
+    src: url('True\ Lies.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'scary';
+    src: url('Nightscary\ Free\ Trial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'anti';
+    src: url('Antipathic.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'unu';
+    src: url(Unutterable-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    font-family: 'unu', cursive;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: rgb(20, 20, 20);
+}
+
+
+
+main {
+    width: 90vw;
+    background-color: #141414;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+h2 {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+
+h1 {
+    padding-top: 250px;
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+}
+
+header > p {
+    font-family: 'who';
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    background-color: black;
+}
+
+
+header > p{
+    color: white;
+    text-align: center;
+}
+
+
+header> p > input{
+   
+    text-align: center;
+    font-family: 'scary';
+    font-size: 1.5em;
+    width: 110px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+
+header > p > input:hover{
+    transition-duration: 250ms;
+    
+    background-color: #5e5d5d;
+    
+}
+
+
+body > p> img { 
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 560px;
+    height: 220px;
+    width: 220px;
+}
