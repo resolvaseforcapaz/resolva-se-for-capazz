@@ -1,7 +1,7 @@
 var btDarDica = document.getElementById("btDarDica")
 
 function DarDica() {
-    alert(". = 1; . . = 2")
+    alert("Polybius Square")
 }
 
 btDarDica.addEventListener("click", DarDica)
